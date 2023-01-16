@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 87" width="118" height="87">
+	<title>menuwhite</title>
+	<defs>
+		<image  width="118" height="87" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAABXBAMAAAAjeayxAAAAAXNSR0IB2cksfwAAABhQTFRFAAAA////////////////////////////I36dXwAAAAh0Uk5TAEC/7/9gf4BhOf2+AAAAZ0lEQVR4nO3WuwmAUBBE0Yk0FxsQtAMbeB8bEAuwBPuPfHawjInIPfmFZaORhrVaFqnzyubUYbdJs91m2WktMj/1eHXzaLeberu9pN0ryyQAAL6BnRPEzoli5wAAfoGNFMRGimob6QaaB8+lJE7egAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

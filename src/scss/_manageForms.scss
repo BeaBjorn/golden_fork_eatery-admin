@@ -1,0 +1,82 @@
+
+/*
+Created by : Beatrice Bjorn
+For : Project - Restaurant - webbutveckling III, DT173G
+Last updated : 2022-08-21
+*/
+
+/*
+This file contains the scss-code for the main forms on the website
+*/
+
+.manageForms{
+    width: 90%;
+    margin-bottom: 10%;
+    text-align: left;
+
+    input{
+        width: 40%;
+        margin-left: 35%;
+        background-color: $lightGold;
+        border-style: none;
+        margin-bottom: 2%;
+        margin-top: 1%;
+        padding: 1%;
+    }
+    label{
+        text-align: left;
+        margin-left: 35%;
+    }
+
+    textarea{
+        margin-left: 35%;
+        background-color: $lightGold;
+        width: 41.8%;
+    }
+
+    #agree{
+        margin-left: 2%;
+        width: 20px;
+        height: 20px;
+      }
+
+    select{
+        padding: 0.5% 1% 0.5% 1%;
+        font-size: 110%;
+        background-color: $lightGold;
+        margin-left: 35%;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+    .loginBtn{
+        width: 10%;
+        padding: 1%;
+        margin-left: 35%;
+        background: $shinyGold;
+        margin-bottom: 7%;
+    }
+
+    .loginBtn:hover{
+        background: $shinyGoldHover;
+    }
+
+    h2{
+        text-align: left;
+        margin-left: 35%;
+        margin-bottom: 3%;
+        margin-top: -2%;
+    }
+
+    a{
+        padding: 1% 5% 1% 5% !important;
+    }
+
+    .agree{
+        text-align: left;
+        width: 200%;
+        margin-left: 35%;
+    }
+}
+
+
+

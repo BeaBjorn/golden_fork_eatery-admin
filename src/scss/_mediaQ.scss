@@ -1,0 +1,292 @@
+/*
+Created by : Beatrice Bjorn
+For : Project - Restaurant - webbutveckling III, DT173G
+Last updated : 2022-08-21
+*/
+
+/*
+This file contains the scss-code for the media-queries for the website
+*/
+
+@media(min-width: 300px) and (max-width: 400px){
+
+    .logo{
+        width: 70%;
+        height: auto;
+    }
+    .hamburger{
+        margin-top: 5%;
+    }
+    .menu{
+        margin-left: 0%;
+        width: 100%;
+    }
+    h1{
+        font-size: 200% !important;
+    }
+    .loginForm{
+        width: 100% !important;
+        margin: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        input{
+            width: 70% !important;
+            margin-left: 15% !important;
+        }
+
+        label{
+            margin-left: 15% !important;
+        }
+
+        h2{
+            margin-left: 15% !important;
+        }
+
+        .loginBtn{
+            margin-left: 15% !important;
+            width: 30% !important; 
+        }
+    }
+    .greenAdminBlock{
+        width: 80% !important;
+        font-size: 80%;
+    }
+    .darkDiv{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .manageForms{
+        input{
+            width: 70% !important;
+            margin-left: 20% !important;
+        }
+        label{
+            margin-left: 20% !important;
+        }
+        h2{
+            margin-left: 20% !important;
+        }
+        select{
+            margin-left: 20% !important;
+        }
+
+        .loginBtn{
+            width: 30% !important;
+            margin-left: 20% !important;
+            margin-top: 6% !important;
+        }
+    }
+
+    table{
+        font-size: 60% !important;
+    }
+    .bookingTable{
+        font-size: 45% !important;
+    }
+
+}
+
+@media(min-width: 400px) and (max-width: 600px){
+
+    .logo{
+        width: 60%;
+        height: auto;
+    }
+    .hamburger{
+        margin-top: 5%;
+    }
+    .menu{
+        margin-left: 0%;
+        width: 100%;
+    }
+    h1{
+        font-size: 200% !important;
+    }
+    .loginForm{
+        width: 100% !important;
+        margin: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        input{
+            width: 70% !important;
+            margin-left: 15% !important;
+        }
+
+        label{
+            margin-left: 15% !important;
+        }
+
+        h2{
+            margin-left: 15% !important;
+        }
+
+        .loginBtn{
+            margin-left: 15% !important;
+            width: 30% !important; 
+            margin-top: 6% !important;
+        }
+    }
+    .greenAdminBlock{
+        width: 80% !important;
+        font-size: 80%;
+    }
+    .darkDiv{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .manageForms{
+        input{
+            width: 70% !important;
+            margin-left: 20% !important;
+        }
+        label{
+            margin-left: 20% !important;
+        }
+        h2{
+            margin-left: 20% !important;
+        }
+        select{
+            margin-left: 20% !important;
+        }
+
+        .loginBtn{
+            width: 30% !important;
+            margin-left: 20% !important;
+        }
+    }
+
+    table{
+        font-size: 75% !important;
+    }
+
+    .bookingTable{
+        font-size: 55% !important;
+    }
+}
+
+
+@media(min-width: 600px) and (max-width: 800px){
+
+    .logo{
+        width: 50%;
+        height: auto;
+    }
+    .hamburger{
+        margin-top: 4.5%;
+    }
+    .menu{
+        margin-left: 54%;
+        width: 50%;
+    }
+
+    h1{
+        font-size: 300% !important;
+    }
+    .loginForm{
+        width: 100% !important;
+        margin: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .greenAdminBlock{
+        width: 55% !important;
+    }
+
+    .darkDiv{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .manageForms{
+        input{
+            width: 70% !important;
+            margin-left: 20% !important;
+        }
+        label{
+            margin-left: 20% !important;
+        }
+        h2{
+            margin-left: 20% !important;
+        }
+        select{
+            margin-left: 20% !important;
+        }
+
+        .loginBtn{
+            width: 30% !important;
+            margin-left: 20% !important;
+        }
+     
+    }
+
+    .bookingTable{
+        font-size: 70% !important;
+    }
+}
+
+@media(min-width: 800px) and (max-width: 1200px){
+
+    .logo{
+        width: 40%;
+        height: auto;
+    }
+    .hamburger{
+        margin-top: 4%;
+    }
+
+    h1{
+        font-size: 300% !important;
+    }
+
+    .loginForm{
+        width: 70% !important;
+        margin-left: 12% !important;
+    }
+
+    .greenAdminBlock{
+        width: 50% !important;
+    }
+
+    .darkDiv{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media(min-width: 800px) and (max-width: 1300px){
+    .menu{
+        margin-left: 65%;
+        width: 40%;
+    }
+}
+
+@media(min-width: 2000px) and (max-width: 2300px){
+    .menu{
+        margin-left: 70%;
+        width: 40%;
+    }
+
+}
+
+@media(min-width: 2300px) and (max-width: 2800px){
+    .menu{
+        margin-left: 60%;
+        width: 40%;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+
+/*
+Created by : Beatrice Bjorn
+For : Project - Restaurant - webbutveckling III, DT173G
+Last updated : 2022-08-21
+*/
+/*
+This file contains the scss-code for the login page on the website
+*/
+
+.h1Login{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.loginForm{
+    width: 40%;
+    margin-left: 27%;
+    background-color: $backgroundDarken;
+    padding: 3%;
+    border-radius: 5px;
+
+    h2{
+        color: $menutext;
+        margin-left: 28%;
+        margin-bottom: 5%;
+    }
+    input{
+        width: 40%;
+        margin: auto;
+        padding: 1%;
+        margin-bottom: 3%;
+        margin-top: 1%;
+        margin-left: 28%;
+        background-color: $lightGold;
+        border-radius: 5px;
+        border-style: none;
+    }
+    select{
+        background-color: $lightGold;
+    }
+    label{
+        color: white;
+        font-size: 120%;
+        margin-left: 29%;
+    }
+
+    .loginBtn{
+        width: 20%;
+        background: $shinyGold;
+        color: $background;
+        border-style: none;
+        border-radius: 5px;
+        margin-left: 28%;
+        padding: 1.5%;
+    }
+    .loginBtn:hover{
+        background: $shinyGoldHover;
+        cursor: pointer;
+    }
+    .error{
+        margin-left: 28%;
+    }
+}

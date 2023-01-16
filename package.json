@@ -1,0 +1,29 @@
+{
+  "name": "projekt_admin_vt22-beabjorn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webbutvecklings-programmet/projekt_admin_vt22-BeaBjorn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Webbutvecklings-programmet/projekt_admin_vt22-BeaBjorn/issues"
+  },
+  "homepage": "https://github.com/Webbutvecklings-programmet/projekt_admin_vt22-BeaBjorn#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.54.3"
+  }
+}

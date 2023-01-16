@@ -1,0 +1,94 @@
+
+/*
+Created by : Beatrice Bjorn
+For : Project - Restaurant - webbutveckling III, DT173G
+Last updated : 2022-08-21
+*/
+
+/*
+This file contains the scss-code for the main menu on the website
+*/
+
+header{
+    background-color:  $headerColor;
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.164);
+}
+
+nav {
+  position: fixed;
+  background-color: $headerColor;
+  width: 100%; 
+  margin-top: -20%;
+  z-index: 1;
+  max-width: 2000px;
+  
+}
+
+.logo {
+  margin-left: 1%;
+  padding: 0.5%;
+  width: 30%;
+  height: auto; 
+}
+
+.hamburger {
+    position: relative;
+  float: right;
+  margin-right: 2%;
+  margin-top: 3.5%;
+  border: none;
+  cursor: pointer;
+  background-color: $transparent;
+  z-index: 999999;
+}
+
+
+.menu {
+    position: fixed;
+    transform: translateX(100%);
+    transition: transform 0.5s;
+    margin-left: 80%;
+    background-color: $headerColor;
+    list-style: none;
+    width: 30%;
+    padding-bottom: 100%;
+    padding-top: 20%;
+    height: auto;
+    z-index: 1;
+}
+
+nav ul li{
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  
+  nav ul li a{
+      margin-right: -30%;
+      color: $menutext;
+      font-size: 120%;
+      text-decoration: none;
+      z-index: 1;
+      font-weight: 400;
+      padding: 4%;
+      width: 30%;
+  }
+  
+  nav ul li a:hover{
+      background: $menuHover;
+      border-radius: 50px;
+      width: 100%;
+      height: auto;
+      padding: 4% 70% 4% 4%;
+      color: black;
+      font-weight: 400;
+      cursor: pointer;
+      text-decoration: underline;
+  }
+.closeMenu {
+    display: none;
+}
+
+
+.showMenu {
+    transform: translateX(0);
+}
